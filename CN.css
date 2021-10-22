@@ -1,0 +1,47 @@
+html, body {
+    color :rgb(170, 15, 46);
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(qwe.jpg);
+    background-size:cover;
+}
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 20px;
+    background: rgba(255, 24, 224, 0.178);
+}
+
+#addToDo {
+    border-radius: 9px;
+    height: 44px;
+    width: 43px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    background: rgba(255, 255, 0, 0.438);
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+    }
+.het{
+    text-align: center;
+}
