@@ -1,7 +1,10 @@
 html, body {
+    color :rgb(170, 15, 46);
     width: 50%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(qwe.jpg);
+    background-size:cover;
 }
 
 .container {
@@ -17,6 +20,7 @@ html, body {
     font-size: 25px;
     vertical-align: middle;
     border-radius: 20px;
+    background: rgba(255, 24, 224, 0.178);
 }
 
 #addToDo {
@@ -26,6 +30,7 @@ html, body {
     border: 1px solid black;
     vertical-align: middle;
     font-size: 30px;
+    background: rgba(255, 255, 0, 0.438);
 }
 
 .paragraph-styling {
@@ -36,7 +41,7 @@ html, body {
 
 .to-dos {
     margin-top: 25px;
-}
+    }
 .het{
     text-align: center;
 }
