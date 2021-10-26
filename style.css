@@ -1,0 +1,22 @@
+#contain{
+    background-color: black;
+    border: 5px solid white;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+#outtxt{}
+#btn{
+    margin: 25px auto auto 5px;
+}
+body{
+    background-color: aqua;
+}
+p{
+    color: white;
+}
+#userinp{
+    width: 100px;
+    margin: 25px auto;
+}
