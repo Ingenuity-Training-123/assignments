@@ -1,0 +1,14 @@
+#canvas {
+    border: 1px solid black; 
+   }
+   
+   .stroke-color {
+       margin-top: 10px; 
+    margin: 5px;   
+    padding:1px 10px;
+       /* display: flex; */
+       display: inline;
+     border-radius: 50%;
+     width: 30px;
+     height: 1px;
+   }
