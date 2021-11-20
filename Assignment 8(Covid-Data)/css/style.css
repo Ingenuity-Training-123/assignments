@@ -1,6 +1,6 @@
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
-.container {
+.container {background-color: blanchedalmond;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -8,10 +8,11 @@
     text-align: center;
 }
 
-.heading {
+.heading {background-image: linear-gradient(to bottom, rgb(255, 38, 0), rgb(245, 234, 234));
     font-size: 45px;
     font-weight: bold;
     text-align: center;
+    font-family: cursive;
 }
 .search {
     display: flex;
