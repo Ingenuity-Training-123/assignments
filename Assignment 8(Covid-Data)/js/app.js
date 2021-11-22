@@ -119,6 +119,7 @@ function filterTreatment(data) {
     console.log(data);
     function printTreatmentData() {
         for (let i = 0; i < data.length; i++) {
+            createTreatmentCard(data[i].category, data[i].description, data[i].funder, data[i].lastUpdated, data[i].nextSteps);
         }
     }
 }

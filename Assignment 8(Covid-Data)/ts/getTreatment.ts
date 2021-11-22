@@ -39,7 +39,7 @@ function filterTreatment(data: any): void {
 
     function printTreatmentData() {
         for(let i=0; i<data.length; i++) {
-            // console.log(data[i].phase);
+            createTreatmentCard(data[i].category, data[i].description, data[i].funder, data[i].lastUpdated, data[i].nextSteps);
         }
     }
 }
