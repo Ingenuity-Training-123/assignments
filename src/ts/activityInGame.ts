@@ -66,7 +66,7 @@ private endText(): void {
 }
 
     private createStartText(): void {
-      const title = new BitmapText('funky card memory Game', {
+      const title = new BitmapText('Card memory Game', {
         fontName: 'Desyrel',
         fontSize: 120,
         align: 'center',
@@ -75,7 +75,7 @@ private endText(): void {
       title.x = this.app.view.width / 2;
       title.y = title.height;
       
-      const start = new BitmapText('Click here to PlAy tHe gAmE', {
+      const start = new BitmapText('Click here to Play the GAME', {
         fontName: 'Desyrel',
         fontSize: 50,
         align: 'center',
