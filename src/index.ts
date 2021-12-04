@@ -15,7 +15,7 @@ app.loader.add("gold-coins", "https://pixijs.io/particle-emitter/examples/images
 .add("bubble", "https://pixijs.io/particle-emitter/examples/images/Bubbles99.png")
 .add('snow', "https://cdn-icons-png.flaticon.com/128/2336/2336319.png")
 .add('sparks',"https://pixijs.io/particle-emitter/examples/images/Sparks.png")
-.add("diamond","https://cdn-icons-png.flaticon.com/512/6237/6237125.png")
+.add("diamond","https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be02a4e3-e357-4bde-b048-3a8a59e11d49/d2mcev3-5ac40603-bd13-49ed-b235-859ee4fd46cb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JlMDJhNGUzLWUzNTctNGJkZS1iMDQ4LTNhOGE1OWUxMWQ0OVwvZDJtY2V2My01YWM0MDYwMy1iZDEzLTQ5ZWQtYjIzNS04NTllZTRmZDQ2Y2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.LJLK_Ka0GIqVx1C0RwYv7vvE4Vgc3BuYUdttCUAJ3RM")
 .load((l, r) => {
 
   const container = new Container();
@@ -241,7 +241,7 @@ app.loader.add("gold-coins", "https://pixijs.io/particle-emitter/examples/images
         e: 1,
       },
     ],
-    frequency: 0.09,
+    frequency: 0.08,
     emitterLifetime: 0,
     maxParticles: 500,
     addAtBack: false,
@@ -286,11 +286,11 @@ app.loader.add("gold-coins", "https://pixijs.io/particle-emitter/examples/images
             list: [
               {
                 time: 0,
-                value: 0.25,
+                value: 0.05,
               },
               {
                 time: 1,
-                value: 0.35,
+                value: 0.15,
               },
             ],
           },
