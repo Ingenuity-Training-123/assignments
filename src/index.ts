@@ -524,10 +524,10 @@ rectangle.beginFill(0xAA33BB)
   });
 // })
 
-  window.onclick = () => {
-    emiter.emit = false;
-    emiter2.emit = false;
-    emiter3.emit=false;
-    emiter4.emit=false;
-  };
+window.onclick = () => {
+  emiter4.emit = emiter3.emit ? false : true;
+ emiter3.emit = emiter3.emit ? false : true;
+ emiter2.emit = emiter2.emit ? false : true;
+ emiter.emit = emiter.emit ? false : true;
+};
 })
