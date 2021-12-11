@@ -1,7 +1,7 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+// const ESLintPlugin = require("eslint-webpack-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
@@ -52,9 +52,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      title: 'PIXI Training',
       inject: 'body',
-      template: './src/index.html',
+      template:'./src/index.html',
       meta: {
         viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       },

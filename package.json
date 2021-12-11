@@ -5,21 +5,21 @@
     "@pixi-spine/base": "^3.0.7",
     "@pixi-spine/runtime-4.0": "^3.0.7",
     "@pixi/filter-blur": "^6.1.1",
+    "@types/gsap": "^3.0.0",
     "gsap": "^3.7.1",
+    "pixi-particles": "^4.3.1",
     "pixi-spine": "^3.0.7",
-    "pixi.js": "^6.2.0"
+    "pixi.js": "^6.0.4"
   },
   "private": true,
   "main": "./src/index.ts",
   "scripts": {
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch",
-    "serve": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "devDependencies": {
     "@types/node": "^16.4.1",
+    "@types/pixi.js": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
