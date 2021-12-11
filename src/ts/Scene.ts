@@ -22,8 +22,8 @@ export class Scene extends Container{
         this.center = new Point(app.view.width/2,app.view.height/2);
         this.text = new Text(  `My Win: ${this,this.my_score}`,{
             fontFamily:'Comic-sans',
-            fill:'blue',
-            fontSize:'50px',
+            fill:'white',
+            fontSize:'30px',
             align : 'center',
         })
         this.text.x = 0
