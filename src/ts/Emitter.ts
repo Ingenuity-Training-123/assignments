@@ -10,9 +10,9 @@ export class Emitter extends ParticleContainer{
         //var texture = PIXI.Texture.from('assets/img/killua.png');
         //console.log(getTexture('sparks'),"33")
         super(maxCount,props);
-        const texture1 = this.createTexture('assets/img/pop_anim.png',2,2,99,99);
-        const texture2 = this.createTexture('assets/img/pop_anim.png',103,86,65,58);
-        const texture3 = this.createTexture('assets/img/pop_anim.png',103,2,85,82);
+        const texture1 = this.createTexture('https://cdn-icons-png.flaticon.com/128/2336/2336319.png',2,2,99,99);
+        const texture2 = this.createTexture('https://cdn-icons-png.flaticon.com/128/2336/2336319.png',103,86,65,58);
+        const texture3 = this.createTexture('https://cdn-icons-png.flaticon.com/128/2336/2336319.png',103,2,85,82);
         const texture4 = this.createTexture('assets/img/pop_anim.png',2,103,99,98);
         const texture5 = this.createTexture('assets/img/pop_anim.png',2,2,99,99);
         const texture6 = this.createTexture('assets/img/pop_anim.png',2,2,99,99);
